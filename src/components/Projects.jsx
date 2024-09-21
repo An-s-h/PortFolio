@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 import SuperPod from "../assets/SuperPod.jpg";
 import TempView from "../assets/Temp-View.jpg";
-import GotToNotes from "../assets/GoToNotes.jpg";
+import GotToNotes from "../assets/Go-To-Notes.jpg";
 
 const projects = [
   {
