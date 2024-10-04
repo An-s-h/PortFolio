@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
-import SuperPod from "../assets/SuperPod.jpg";
-import TempView from "../assets/Temp-View.jpg";
-import GotToNotes from "../assets/GoToNotes.jpg";
+import SuperPod from "../../SuperPod.jpg";
+import TempView from "../../Temp-View.jpg";
+import GotToNotes from "../../GoToNotes.jpg";
 
 const projects = [
   {
@@ -43,7 +43,7 @@ function ProjectCard({ project }) {
 
   return (
     <motion.div
-      className="bg-black opacity-70 rounded-2xl shadow-lg overflow-hidden w-full  max-w-5xl h-[400px] my-10 mx-auto"
+      className=" opacity-80 rounded-2xl shadow-lg overflow-hidden w-full  max-w-5xl h-[400px] my-10 mx-auto"
       whileHover={{ scale: 1.02 }}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
