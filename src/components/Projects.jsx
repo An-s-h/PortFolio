@@ -1,9 +1,15 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
+<<<<<<< HEAD
 import SuperPod from "../../SuperPod.jpg";
 import TempView from "../../Temp-View.jpg";
 import GotToNotes from "../../GoToNotes.jpg";
+=======
+import SuperPod from "../assets/SuperPod.jpg";
+import TempView from "../assets/Temp-View.jpg";
+import GotToNotes from "../assets/Go-To-Notes.jpg";
+>>>>>>> 002496d389f9235f182906f21c0fdb552aa104dc
 
 const projects = [
   {
