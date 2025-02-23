@@ -4,8 +4,7 @@ import { Github, ExternalLink } from "lucide-react";
 
 import SuperPod from "../../SuperPod.jpg";
 import TempView from "../../Temp-View.jpg";
-import GotToNotes from "../../GoToNotes.jpg";
-
+import ProToType from "../../ProToType.jpg";
 
 const projects = [
   {
@@ -15,28 +14,28 @@ const projects = [
       "A podcast streaming platform with JWT authentication, Redux for state management, and Cloudinary for media uploads.",
     image: SuperPod,
     liveLink: "https://super-pod.vercel.app/",
-    githubLink: "https://github.com/yourusername/project-alpha",
+    githubLink: "https://github.com/An-s-h/super-pod",
     skills: ["React", "Next.js", "MongoDB", "Tailwind CSS"],
   },
   {
     id: 2,
+    title: "Pro-To-Type",
+    description:
+      "• Developed a multimode typing test website with the ability to save results for better analytics.",
+    image: ProToType,
+    liveLink: "https://pro-to-type.vercel.app/",
+    githubLink: "https://github.com/An-s-h/pro-to-type",
+    skills: ["React", "Tailwind CSS", "FireBase"],
+  },
+  {
+    id: 3,
     title: "Temp-View",
     description:
       "A weather app with a 7-day forecast, real-time updates, and light/dark mode using OpenWeather API.",
     image: TempView,
-    liveLink: "https://temp-view.vercel.app/",
-    githubLink: "https://github.com/yourusername/project-beta",
-    skills: ["React", "Tailwind CSS", "OpenWeather API"],
-  },
-  {
-    id: 3,
-    title: "Notes-To-MCQ",
-    description:
-      "An AI-powered quiz generator with custom quiz settings, built using React and Node.js.",
-    image: GotToNotes,
     liveLink: "https://goto-notes.vercel.app/",
-    githubLink: "https://github.com/yourusername/project-beta",
-    skills: ["React", "Node.js", "Google Gemini API"],
+    githubLink: "https://github.com/An-s-h/TempView",
+    skills: ["React", "Node.js", "OpenWeather API"],
   },
 ];
 
@@ -45,7 +44,7 @@ function ProjectCard({ project }) {
 
   return (
     <motion.div
-      className=" opacity-80 rounded-2xl shadow-lg overflow-hidden w-full  max-w-5xl h-[400px] my-10 mx-auto"
+      className="rounded-2xl shadow-lg overflow-hidden w-full max-w-5xl h-[400px] my-10 mx-auto"
       whileHover={{ scale: 1.02 }}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
