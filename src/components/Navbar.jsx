@@ -13,10 +13,10 @@ export default function Navbar() {
 
           {/* Navigation links visible on medium screens and above */}
           <div className="hidden sm:flex items-center space-x-4">
-            <a href="/about" className="text-gray-300 hover:text-white text-sm font-medium">About</a>
-            <a href="/projects" className="text-gray-300 hover:text-white text-sm font-medium">Projects</a>
-            <a href="/experience" className="text-gray-300 hover:text-white text-sm font-medium">Experience</a>
-            <a href="/contact" className="text-gray-300 hover:text-white text-sm font-medium">Contact</a>
+            <a href="/" className="text-gray-300 hover:text-white text-sm font-medium">About</a>
+            <a href="/" className="text-gray-300 hover:text-white text-sm font-medium">Projects</a>
+            <a href="/" className="text-gray-300 hover:text-white text-sm font-medium">Experience</a>
+            <a href="/" className="text-gray-300 hover:text-white text-sm font-medium">Contact</a>
 
            
           </div>
