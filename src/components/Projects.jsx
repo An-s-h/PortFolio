@@ -127,7 +127,7 @@ export default function MyProjects() {
   return (
     <section className="">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl mb-12 text-center text-stone-300 tracking-wide lg:text-5xl">
+        <h2 className="text-3xl mb-12 text-center text-stone-300 tracking-wide lg:text-5xl font-extrabold">
           My Projects
         </h2>
         <div className="flex-row flex-wrap justify-center items-center gap-8">
